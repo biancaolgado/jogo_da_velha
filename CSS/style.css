@@ -1,13 +1,27 @@
-main {
-    text-align:center
+body{
+    background-color: rgb(11, 139, 202);
 }
-
-.tabuleiro div input {
+main {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.tabuleiro div input{
     width: 100px;
     height: 100px;
     margin: 5px;
-    border: 1px solid gray;
+    border: 1px sold gray;
     border-radius: 6px;
     font-size: 30px;
     cursor: pointer;
+}
+input[type=button]{
+    background-color: rgb(184, 82, 109);
+    color: black;
+    font-family: black;
+}
+.velha {
+    position:fixed;
+    height:650px;
+    width: 650px; 
+   pointer-events: none;
 }
